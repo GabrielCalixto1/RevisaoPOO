@@ -1,7 +1,7 @@
 namespace RevisaoPOO.lib.Models
 {
-    public class Mouse
+    public class Mouse : Produto
     {
-        
+        public int Dpi {get; set;}
     }
 }
